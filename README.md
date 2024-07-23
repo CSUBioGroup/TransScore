@@ -28,7 +28,7 @@ python train.py -task score -dataset refined_set
 Taking the affinity prediction as an example, we can customize the hyperparameters for training(i.g. learning rate, batch size, number of epoch), for more information, please check source code of [args.py](http://args.py) .
 
 ```jsx
-python main.py -task affinity -lr 0.001 -batch_size 64 -num_epochs 200
+python train.py -task affinity -lr 0.001 -batch_size 64 -num_epochs 200
 ```
 
 ## **Run on your datasets**

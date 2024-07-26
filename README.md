@@ -66,7 +66,7 @@ PDB code,compound_smiles,label
 
 ```
 
-## Run the corresponding command line according to the prediction task
+### Run the corresponding command line according to the prediction task
 ```jsx
 #conformation score
 python train.py -task score -dataset your_dataset_name
